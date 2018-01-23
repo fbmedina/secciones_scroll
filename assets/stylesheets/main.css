@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html, body{
+    box-sizing: border-box;
+    height: 100%;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+#menu {
+	width: 10%;
+	padding-top: 20vh;
+	height: 100vh;
+	float: left;
+	border-right: 1px solid #444;
+}
+
+#fullpage {
+	width: 90%;
+	float: right;
+}
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent #444;
+	border-width: 30px 0 30px 25px;
+}
+
+.fp-controlArrow.fp-prev {
+	border-color: transparent #444 transparent transparent;
+	border-width: 30px 25px 30px 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
