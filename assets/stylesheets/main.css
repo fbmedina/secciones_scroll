@@ -13,16 +13,12 @@ html, body{
 }
 
 #menu {
-	width: 10%;
+	display: none;
+	width: 15%;
 	padding-top: 20vh;
 	height: 100vh;
 	float: left;
 	border-right: 1px solid #444;
-}
-
-#fullpage {
-	width: 90%;
-	float: right;
 }
 
 .fp-controlArrow.fp-next {
@@ -41,4 +37,17 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
+}
+
+
+@media (min-width: 992px) {
+	#menu {
+		display: initial;
+	}
+
+
+	#fullpage {
+		width: 85%;
+		float: right;
+	}
 }
